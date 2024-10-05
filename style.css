@@ -1,8 +1,13 @@
 * {
-  padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .first {
@@ -30,7 +35,7 @@
     font-size: 25px;
     padding: 10px 0 10px 15px;
     margin-bottom: 45px;
-    background-color: #FFC107;
+    background-color: #ffc107;
     opacity: 0.7;
 
     @media (max-width: 600px) {
@@ -41,5 +46,44 @@
   & > div:hover {
     background-color: #d17c0d;
   }
+}
 
+h2 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 0;
+  padding: 0 16px;
+}
+
+.card {
+  padding: 0 16px;
+}
+
+.card img {
+  width: 100%;
+  border-top: 6px solid #ffc107;
+}
+
+.card p {
+  margin: 15px 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px 0;
+    padding: 0 16px;
+  }
+}
+
+.car-dreams .card img {
+  border-top: 6px solid #ff9800;
 }
