@@ -50,7 +50,7 @@ h2 {
   margin: 10px 0;
 }
 
-.smart-section {
+.container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 50px 0;
@@ -71,10 +71,14 @@ h2 {
 }
 
 @media (max-width: 600px) {
-  .smart-section {
+  .container {
     display: grid;
     grid-template-columns: 1fr;
     margin: 50px 0;
     padding: 0 16px;
   }
+}
+
+.car-dreams .card img {
+  border-top: 6px solid #ff9800;
 }
