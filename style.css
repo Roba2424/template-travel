@@ -29,7 +29,7 @@ h2 {
 }
 
 .card img {
-  max-width: 100%;
+  width: 100%;
   border-top: 6px solid #ffc107;
 }
 
@@ -39,6 +39,26 @@ h2 {
 
 @media (max-width: 600px) {
   .smart-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px 0;
+    padding: 0 16px;
+  }
+}
+
+.car-dreams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 0;
+  padding: 0 16px;
+}
+
+.car-dreams .card img {
+  border-top: 6px solid #ff9800;
+}
+
+@media (max-width: 600px) {
+  .car-dreams {
     display: grid;
     grid-template-columns: 1fr;
     margin: 50px 0;
