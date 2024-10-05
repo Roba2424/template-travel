@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.smart-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px 0;
+  padding: 0 16px;
+}
+
+.card {
+  padding: 0 16px;
+}
+
+.card img {
+  max-width: 100%;
+  border-top: 6px solid #ffc107;
+}
+
+.card p {
+  margin: 15px 0;
+}
+
+@media (max-width: 600px) {
+  .smart-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px 0;
+    padding: 0 16px;
+  }
+}
