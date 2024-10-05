@@ -32,4 +32,9 @@
     background-color: #FFC107;
     opacity: 0.7;
   }
+
+  & > div:hover {
+    background-color: #d17c0d;
+  }
+
 }
